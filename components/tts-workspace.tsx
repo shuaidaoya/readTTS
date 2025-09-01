@@ -67,7 +67,7 @@ export default function TTSWorkspace({ ...props }: TTSWorkspaceProps) {
         resolver: zodResolver(TTSRequestSchame),
         defaultValues: {
             options: {
-                voice: 'Microsoft Server Speech Text to Speech Voice (zh-CN, YunjianNeural)',
+                voice: 'Microsoft Server Speech Text to Speech Voice (zh-CN, YunjianNeural)',rate: -10,
             },
             text: '第一章：陨落的天才      曾经的天才少年萧炎已沦落为被人看不起的废物'
         }
@@ -434,7 +434,7 @@ export default function TTSWorkspace({ ...props }: TTSWorkspaceProps) {
                                         onValueChange={(value) => field.onChange(value[0])}
                                         min={-100}
                                         max={100}
-                                        step={-10}
+                                        step={1}
                                     />
                                 </FormItem>
                             )} />
