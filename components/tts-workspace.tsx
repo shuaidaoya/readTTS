@@ -434,7 +434,7 @@ export default function TTSWorkspace({ ...props }: TTSWorkspaceProps) {
                                         onValueChange={(value) => field.onChange(value[0])}
                                         min={-100}
                                         max={100}
-                                        step={1}
+                                        step={-10}
                                     />
                                 </FormItem>
                             )} />
