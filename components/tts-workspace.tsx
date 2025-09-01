@@ -67,9 +67,9 @@ export default function TTSWorkspace({ ...props }: TTSWorkspaceProps) {
         resolver: zodResolver(TTSRequestSchame),
         defaultValues: {
             options: {
-                voice: 'Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoxiaoNeural)',
+                voice: 'Microsoft Server Speech Text to Speech Voice (zh-CN, YunjianNeural)',
             },
-            text: '君不见黄河之水天上来，奔流到海不复回。'
+            text: '第一章：陨落的天才  曾经的天才少年萧炎已沦落为被人看不起的废物'
         }
     })
 
